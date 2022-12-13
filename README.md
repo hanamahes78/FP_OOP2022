@@ -15,6 +15,7 @@ Aspek OOP :
      * Setter to board size
      * @param newSize integer to board size
      */
+     
     public void setBoardSize(int newSize) { // Encapsulation
         size = newSize;
     }
@@ -23,6 +24,7 @@ Aspek OOP :
      * Getter to board size
      * @return Board size
      */
+     
     public int getBoardSize() {
         return size;
     }
