@@ -17,7 +17,7 @@ import javax.swing.JPanel;
  *
  * @author Hana Maheswari
  */
-public class GUI extends JFrame {
+public class GUI extends JFrame implements NewInterface {
     private int size;                            
     private int playerOrder=0;                    
     private int numberOfPlayer;                   
@@ -38,12 +38,11 @@ public class GUI extends JFrame {
         frame = new JFrame("Connect Four Game");
         panel = new JPanel();
         
-         
         playerNumberAndBoardSize();  // Get the game parameters
-        dynamicAllocation();         // Create 2D dynamic Cell array
+        dynamicAllocation();         // DArray
 
-        buttons = new JButton[getBoardSize()][getBoardSize()];    // Create button array
-        grid = new GridLayout(getBoardSize(),getBoardSize());     // Create GridLayout    
+        buttons = new JButton[getBoardSize()][getBoardSize()];    
+        grid = new GridLayout(getBoardSize(),getBoardSize());     
         panel.setLayout(grid);   
         
         initialBoard();
