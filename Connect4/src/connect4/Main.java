@@ -9,12 +9,8 @@ package connect4;
  * @author Hana Maheswari
  */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        new GameLoop();
+        new GUI();
     }
     
 }
