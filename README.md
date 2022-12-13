@@ -9,27 +9,15 @@ Aspek OOP :
 - Casting/Conversion
 - Constructor
 - Overriding
-- Encapsulation
-
-    /**
-     * Setter to board size
-     * @param newSize integer to board size
-     */
-     
-    public void setBoardSize(int newSize) { // Encapsulation
-        size = newSize;
-    }
-    
-    /**
-     * Getter to board size
-     * @return Board size
-     */
-     
-    public int getBoardSize() {
-        return size;
-    }
-    
+- Encapsulation 
 - Polymorphism
+
+        public class GUI extends JFrame implements NewInterface {
+            private int size;                            
+            private int playerOrder=0;                    
+            private int numberOfPlayer;                   
+            private static int livingCellNumber=0;    
+    
 - ArrayList
 - Exception Handling
 - GUI
