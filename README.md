@@ -136,5 +136,4 @@ Aspek OOP :
 Source code : https://github.com/CelalTEMIZ/Connect-Four.git
 
 Run program :
-![image](https://user-images.githubusercontent.com/108173681/207382610-d4628a6e-35a3-486c-a35b-8d4731907b96.png)
-
+![Screenshot (7581)](https://user-images.githubusercontent.com/108173681/207383227-fda0f281-10ba-406d-834a-88fb90458f12.png)
