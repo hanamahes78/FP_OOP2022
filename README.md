@@ -10,6 +10,21 @@ Aspek OOP :
 - Constructor
 - Overriding
 - Encapsulation
+    /**
+     * Setter to board size
+     * @param newSize integer to board size
+     */
+    public void setBoardSize(int newSize) { // Encapsulation
+        size = newSize;
+    }
+    
+    /**
+     * Getter to board size
+     * @return Board size
+     */
+    public int getBoardSize() {
+        return size;
+    }
 - Polymorphism
 - ArrayList
 - Exception Handling
